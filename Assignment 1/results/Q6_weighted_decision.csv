@@ -1,0 +1,5 @@
+deployment,primary_method,weighted_score
+wide_area_voice,OFDMA,4.05
+tactical,CDMA,3.75
+stadium_downlink,OFDMA,4.20
+low_rate_sensors,OFDMA,3.95

@@ -1,0 +1,10 @@
+code_length,processing_gain_db,users,condition,bits_per_user,ber
+8,9.03,8,walsh_sync,3000,0.000000
+16,12.04,8,walsh_sync,3000,0.000042
+64,18.06,8,walsh_sync,3000,0.000000
+8,9.03,8,random_nonorthogonal,3000,0.167417
+16,12.04,8,random_nonorthogonal,3000,0.067792
+64,18.06,8,random_nonorthogonal,3000,0.006750
+8,9.03,8,near_far_async,3000,0.125750
+16,12.04,8,near_far_async,3000,0.125458
+64,18.06,8,near_far_async,3000,0.122250

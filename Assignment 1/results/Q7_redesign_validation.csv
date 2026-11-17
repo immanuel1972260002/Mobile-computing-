@@ -1,0 +1,7 @@
+measure,original,redesigned
+sum_throughput_bps_hz,299.9462,295.0092
+jain_fairness,0.90024,0.99196
+minimum_user_throughput,19.2065,31.9318
+maximum_user_throughput,57.7286,41.9935
+mean_minimum_tones_per_user,4.141,6.929
+mean_maximum_tones_per_user,12.260,9.095

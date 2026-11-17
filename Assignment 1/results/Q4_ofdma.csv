@@ -1,0 +1,4 @@
+allocation,sum_throughput_bps_hz,jain_fairness,mean_minimum_user_rate
+fixed_contiguous,186.0999,0.97787,17.8444
+interleaved_round_robin,185.8278,0.97735,17.8054
+channel_aware_best,299.9412,0.90131,19.6065

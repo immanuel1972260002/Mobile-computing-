@@ -1,0 +1,5 @@
+elements,hpbw_deg,first_null_deg,peak_sidelobe_db,min_separation_5deg_grid
+2,60.01,90.00,,55
+4,26.33,30.00,-11.30,25
+8,12.81,14.478,-12.80,15
+16,6.36,7.181,-13.15,10

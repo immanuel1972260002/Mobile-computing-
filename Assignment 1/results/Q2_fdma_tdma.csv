@@ -1,0 +1,7 @@
+traffic,scheme,nominal_channels,usable_channels,requests,blocked,utilisation
+continuous_voice,FDMA,80,73,5148,0,0.50818
+continuous_voice,TDMA,80,70,5148,0,0.52996
+bursty_10pct,FDMA,80,73,8499,0,0.02817
+bursty_10pct,TDMA,80,70,8499,0,0.02938
+synchronized_90_device,FDMA,80,73,54000,10200,0.05
+synchronized_90_device,TDMA,80,70,54000,12000,0.05
