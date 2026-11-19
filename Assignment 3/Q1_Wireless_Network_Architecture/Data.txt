@@ -1,0 +1,1 @@
+Scenario: 1 mobile node; AP1 and AP2; 10 packets. Packets 1–5 sent through AP1. The node then moves to AP2; packets 6–10 sent through AP2. Both links are UP after handoff.
