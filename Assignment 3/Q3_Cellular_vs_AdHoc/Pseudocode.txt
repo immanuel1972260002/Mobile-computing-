@@ -1,0 +1,12 @@
+ALGORITHM SelectWirelessArchitecture(Infrastructure, Deployment, MultiHop)
+INPUT: infrastructure availability, deployment time, multi-hop requirement
+OUTPUT: CELLULAR or AD_HOC
+BEGIN
+  IF Infrastructure = UNAVAILABLE AND Deployment = IMMEDIATE THEN
+    RETURN AD_HOC
+  ELSE IF MultiHop = REQUIRED THEN
+    RETURN AD_HOC
+  ELSE
+    RETURN CELLULAR
+  END IF
+END
