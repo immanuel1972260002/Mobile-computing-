@@ -1,0 +1,1 @@
+Ambulance home address=10.1.0.20; new CoA=198.51.100.20; HA registration accepted; emergency packet contains patient status and GPS location.
