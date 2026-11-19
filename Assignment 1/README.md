@@ -1,19 +1,35 @@
-# Assignment 1 – Cellular Frequency Planning
+# Assignment 1 — Mobile Computing (Q1–Q7)
 
-This folder contains the question-wise answers (Q1–Q12), a Python implementation, and generated output files.
+This folder contains the written answers and Python/NumPy simulations for all seven questions in the supplied assignment brief.
 
-## Contents
-- `Assignment_Answers.md` – answers arranged by question number.
-- `src/planner.py` – frequency-planning calculations and simulation.
-- `results/` – generated CSV/JSON experiment results.
-- `requirements.txt` – Python dependencies.
+## Folder structure
 
-## Run
+- `Answers_Q1-Q7.md` — answers, assumptions, predictions, analysis and design decisions.
+- `src/assignment1.py` — Q1–Q7 simulation program (fixed random seed: 197226).
+- `requirements.txt` — Python dependency.
+- `results/` — question-wise CSV result files and combined JSON output.
+
+## Run the simulations
+
+From the repository root:
+
 ```bash
 python -m pip install -r "Assignment 1/requirements.txt"
-python "Assignment 1/src/planner.py" --self-test
-python "Assignment 1/src/planner.py" --out "Assignment 1/results"
+python "Assignment 1/src/assignment1.py"
 ```
 
-## Modelling assumptions
-The assignment data does not specify licensed channel count, busy-hour traffic per subscriber, cell radius, or propagation survey. For reproducibility, this implementation uses 420 channel equivalents, 0.5 km cell radius, 0.02 Erlang/subscriber, 12 km² service area, and 2% target blocking. These are illustrative assumptions and must be replaced by measured/operator data for deployment.
+The program writes result files to `Assignment 1/results/`.
+
+## Questions covered
+
+1. Mobile communication vs mobile computing; intermittent connectivity.
+2. FDMA vs TDMA capacity and traffic utilisation.
+3. DS-CDMA spreading, despreading, processing gain and near-far effects.
+4. OFDMA subcarrier orthogonality, allocation, throughput and fairness.
+5. SDMA uniform linear array patterns and angular separation.
+6. Weighted access-method selection and deployment decisions.
+7. Diagnosis, redesign and validation of a fairness bottleneck.
+
+## Notes
+
+Simulation figures are model outputs, not measurements from a live cellular network. Assumptions are documented in `Answers_Q1-Q7.md`; use the supplied seed to reproduce the random experiments.
