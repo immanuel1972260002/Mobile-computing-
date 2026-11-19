@@ -7,7 +7,7 @@ This folder contains the written answers and Python/NumPy simulations for all se
 - `Answers_Q1-Q7.md` — answers, assumptions, predictions, analysis and design decisions.
 - `src/assignment1.py` — Q1–Q7 simulation program (fixed random seed: 197226).
 - `requirements.txt` — Python dependency.
-- `results/` — question-wise CSV result files and combined JSON output.
+- `results/` — question-wise CSV outputs. Running the program also generates a combined `all_results.json` file.
 
 ## Run the simulations
 
