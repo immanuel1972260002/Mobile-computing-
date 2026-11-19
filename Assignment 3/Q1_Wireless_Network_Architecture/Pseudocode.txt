@@ -1,0 +1,19 @@
+ALGORITHM WirelessMobilityTest(Nodes, AccessPoints, Packets)
+INPUT: mobile nodes, access points, packet count, link state
+OUTPUT: delivered packets, lost packets, handoff count
+BEGIN
+  Initialise currentAP ← AP1, delivered ← 0, lost ← 0, handoffs ← 0
+  FOR each packet DO
+    IF currentAP link is UP THEN
+      FORWARD packet through currentAP
+      delivered ← delivered + 1
+    ELSE
+      lost ← lost + 1
+    END IF
+    IF mobile node enters AP2 coverage AND AP2 signal is acceptable THEN
+      currentAP ← AP2
+      handoffs ← handoffs + 1
+    END IF
+  END FOR
+  RETURN delivered, lost, handoffs
+END
