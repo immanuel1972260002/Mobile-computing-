@@ -1,0 +1,1 @@
+MN home address=10.0.0.8; visited CoA=192.0.2.9; HA=10.0.0.1; CN=203.0.113.5; one data packet.
