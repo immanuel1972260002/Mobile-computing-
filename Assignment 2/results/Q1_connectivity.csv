@@ -1,0 +1,4 @@
+availability,updates,immediate_delivered,immediate_lost,store_forward_delivered,store_forward_delayed,store_forward_lost,mean_store_forward_delay_min
+0.9,10000,9027,973,10000,973,0,0.1277
+0.6,10000,5944,4056,10000,4056,0,0.7023
+0.3,10000,2981,7019,10000,7019,0,2.3626
