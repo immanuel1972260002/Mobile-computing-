@@ -1,0 +1,11 @@
+ALGORITHM UpdateDSDVRoute(Node, ReceivedRoute)
+INPUT: destination, next hop, hop count, sequence number
+OUTPUT: updated route table
+BEGIN
+  NewHopCount ← ReceivedRoute.HopCount + 1
+  IF destination is absent THEN ADD route
+  ELSE IF ReceivedSequence > StoredSequence THEN REPLACE stored route
+  ELSE IF ReceivedSequence = StoredSequence AND NewHopCount < StoredHopCount THEN REPLACE stored route
+  END IF
+  RETURN RouteTable
+END
