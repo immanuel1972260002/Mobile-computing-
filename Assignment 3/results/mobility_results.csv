@@ -1,0 +1,5 @@
+scenario,speed_kmh,handoffs,interruption_ms,packets_sent,packets_delivered,packet_delivery_pct,estimated_delay_ms
+Stationary,0,0,5.00,1000,978,97.80,26.80
+Slow_Mobility,10,1,7.00,1000,938,93.80,37.00
+Moderate_Mobility,30,2,24.80,1000,876,87.60,54.70
+High_Mobility,60,4,51.80,1000,780,78.00,81.70

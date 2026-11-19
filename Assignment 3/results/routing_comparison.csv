@@ -1,0 +1,4 @@
+scenario,nodes,mobility_index,traffic_packets,aodv_control_units,dsdv_control_units,aodv_delay_ms,dsdv_delay_ms,aodv_delivery_pct,dsdv_delivery_pct
+Small_Low_Mobility,10,2,500,96,79,21.40,13.80,95.70,95.16
+Medium_Moderate_Mobility,25,5,500,315,228,26.50,16.50,92.25,92.40
+Large_High_Mobility,50,9,500,950,580,33.30,20.10,87.05,88.22

@@ -1,0 +1,12 @@
+{
+  "model": "deterministic illustrative analytical model",
+  "not_a_packet_level_simulator": true,
+  "mobility_scenarios": 4,
+  "routing_scenarios": 3,
+  "interpretation": "Compare trends under stated assumptions only; values are not measured radio-network or ns-3 results.",
+  "files": [
+    "mobility_results.csv",
+    "routing_comparison.csv",
+    "emergency_test_results.csv"
+  ]
+}
