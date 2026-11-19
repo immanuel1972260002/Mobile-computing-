@@ -1,0 +1,18 @@
+ALGORITHM EmergencyNetwork(MobileNodes, Packets, InfrastructureState)
+INPUT: mobile nodes, packets, link states, infrastructure availability
+OUTPUT: delivered, pending/lost packets, control overhead
+BEGIN
+  Initialise neighbor and route tables
+  FOR each packet DO
+    IF destination local THEN DELIVER
+    ELSE IF valid AODV route THEN FORWARD to NextHop
+    ELSE BROADCAST RREQ; WAIT for RREP or timeout
+      IF RREP received THEN install route and FORWARD
+      ELSE BUFFER packet
+      END IF
+    END IF
+  END FOR
+  ON link failure: mark route INVALID; SEND RERR; use alternate route or rediscover
+  IF infrastructure available and external continuity required THEN obtain CoA; register HA; tunnel packets
+  RETURN performance counters
+END
