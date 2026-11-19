@@ -1,0 +1,5 @@
+HA binding: 10.0.0.8 -> 192.0.2.9
+CN sends packet to home address
+HA encapsulates and tunnels packet to 192.0.2.9
+Tunnel endpoint decapsulates packet
+Packet delivered to Mobile Node: DELIVERY_SUCCESS
