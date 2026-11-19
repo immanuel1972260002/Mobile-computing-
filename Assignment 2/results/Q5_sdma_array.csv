@@ -1,0 +1,5 @@
+elements,hpbw_deg,first_null_deg,peak_sidelobe_db,minimum_separation_for_10db_sir_deg,sir_at_minimum_db
+2,60.01,87.96,N/A,55,11.048
+4,26.33,29.975,-11.303,25,14.444
+8,12.81,14.465,-12.797,15,29.129
+16,6.36,7.175,-13.147,10,13.228
