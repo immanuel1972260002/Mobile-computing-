@@ -1,0 +1,6 @@
+{
+  "budget_phone":{"cpu":0.7,"battery":22,"network_mbps":2.0,"camera_max":720},
+  "midrange":{"cpu":1.2,"battery":58,"network_mbps":8.0,"camera_max":1080},
+  "flagship":{"cpu":2.0,"battery":82,"network_mbps":25.0,"camera_max":2160},
+  "wifi_low_battery":{"cpu":1.5,"battery":12,"network_mbps":80.0,"camera_max":2160}
+}
