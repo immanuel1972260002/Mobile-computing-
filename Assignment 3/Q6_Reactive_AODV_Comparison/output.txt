@@ -1,0 +1,7 @@
+S: no valid route to D; broadcast RREQ
+A: receive RREQ and record reverse route
+D: receive RREQ and record reverse route
+D: generate RREP
+A: receive RREP and install forward route
+S: receive RREP and install forward route
+S: route established via A -> D
