@@ -1,0 +1,6 @@
+case,feed_items,quality_levels,cache_levels,prefetch_levels,frame_target_ms,battery_percent
+balanced,10,3,3,3,16,65
+low_end,100,3,3,3,16,28
+video_heavy,100,3,3,3,16,42
+trap_counterexample,10,3,3,3,16,60
+scale_1000_items,1000,10,10,3,16,55
