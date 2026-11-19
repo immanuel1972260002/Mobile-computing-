@@ -1,0 +1,1 @@
+Network S—A—D. S has no valid route. RREQ travels S→A→D; RREP returns D→A→S; S installs next hop A.
