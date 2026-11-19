@@ -1,0 +1,18 @@
+ALGORITHM MobileIPDelivery(MN, HA, CN, CoA)
+INPUT: home address, care-of address, packet from CN
+OUTPUT: delivery status
+BEGIN
+  MN discovers visited network and obtains CoA
+  SEND authenticated RegistrationRequest to HA
+  WAIT for RegistrationReply
+  IF reply is not ACCEPTED THEN RETURN REGISTRATION_FAILURE
+  END IF
+  Binding[MN.HomeAddress] ← CoA
+  CN SENDS packet to MN.HomeAddress
+  HA intercepts packet
+  Encapsulate packet with CoA as tunnel destination
+  FORWARD packet through tunnel to CoA
+  Decapsulate at tunnel endpoint
+  DELIVER original packet to MN
+  RETURN DELIVERY_SUCCESS
+END
