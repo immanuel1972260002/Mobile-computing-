@@ -1,0 +1,22 @@
+ALGORITHM AmbulanceMobility(MN, HA, VisitedNetwork, EmergencyPacket)
+INPUT: ambulance MN, HA, visited network, emergency packet
+OUTPUT: packet delivery result
+BEGIN
+  Detect visited network
+  Obtain CareOfAddress
+  SEND authenticated registration to HA
+  IF registration fails THEN
+    BUFFER EmergencyPacket
+    RETURN REGISTRATION_FAILURE
+  END IF
+  UPDATE HA binding from HomeAddress to CareOfAddress
+  SEND EmergencyPacket to HomeAddress
+  HA tunnels packet to CareOfAddress
+  IF tunnel delivery succeeds THEN
+    DELIVER packet to dispatch centre
+    RETURN DELIVERY_SUCCESS
+  ELSE
+    BUFFER and retry packet when connectivity returns
+    RETURN DELIVERY_PENDING
+  END IF
+END
