@@ -1,0 +1,4 @@
+step,event,destination,next_hop,hop_count,sequence_number,route_state
+1,Initial route,D,A,2,10,VALID
+2,Link A-D fails,D,A,INFINITY,11,INVALID
+3,Update received via B,D,B,2,12,VALID

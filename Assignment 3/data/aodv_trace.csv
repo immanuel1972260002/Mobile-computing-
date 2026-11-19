@@ -1,0 +1,8 @@
+step,node,message,decision,route_state
+1,S,Data needed for D,No valid route; create RREQ,UNKNOWN
+2,S,RREQ broadcast,Forward to neighbours,DISCOVERY
+3,A,RREQ received,Record reverse route to S,DISCOVERY
+4,D,RREQ received,Generate RREP,REPLY
+5,S,RREP received,Install route S-A-D,VALID
+6,S,Data packet,Forward to A,ACTIVE
+7,A-D link fails,RERR generated,Invalidate route and rediscover,INVALID
