@@ -1,0 +1,11 @@
+ALGORITHM AODVRouteDiscovery(Source, Destination)
+INPUT: source, destination, neighbor table
+OUTPUT: route or ROUTE_NOT_FOUND
+BEGIN
+  IF valid route exists THEN RETURN route
+  Increment RouteRequestID; BROADCAST RREQ
+  Receivers record reverse route and forward unseen RREQ
+  IF destination or valid-route node receives RREQ THEN SEND RREP; install forward route; RETURN route
+  ELSE RETURN ROUTE_NOT_FOUND
+  END IF
+END
