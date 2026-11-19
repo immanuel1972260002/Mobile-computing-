@@ -1,0 +1,2 @@
+Selected architecture: AD_HOC
+Reason: no fixed infrastructure and immediate multi-hop deployment is required.
