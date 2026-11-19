@@ -1,0 +1,17 @@
+{
+  "thresholds":{"minimum_battery_percent":20,"required_network":"good","doze_allowed":false,"sensitive_requires_encryption":true,"permission_required":true},
+  "workload_A":{"battery":90,"network":"good","doze":false,"records":[
+    {"id":"A1","priority":5,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"A2","priority":4,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"A3","priority":3,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"A4","priority":2,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"A5","priority":1,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"A6","priority":2,"size_mb":1,"sensitive":true,"encrypted":true}]},
+  "workload_B":{"battery":90,"network":"poor","doze":false,"records":[
+    {"id":"B1","priority":5,"size_mb":1,"sensitive":true,"encrypted":false},
+    {"id":"B2","priority":4,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"B3","priority":3,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"B4","priority":2,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"B5","priority":1,"size_mb":1,"sensitive":true,"encrypted":true},
+    {"id":"B6","priority":2,"size_mb":1,"sensitive":true,"encrypted":true}]}
+}
