@@ -1,0 +1,4 @@
+scenario,nodes,mobility_index,traffic_packets
+Small_Low_Mobility,10,2,500
+Medium_Moderate_Mobility,25,5,500
+Large_High_Mobility,50,9,500

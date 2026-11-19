@@ -1,0 +1,5 @@
+scenario,speed_kmh,coverage_overlap_pct,packets_sent
+Stationary,0,90,1000
+Slow_Mobility,10,75,1000
+Moderate_Mobility,30,60,1000
+High_Mobility,60,35,1000
