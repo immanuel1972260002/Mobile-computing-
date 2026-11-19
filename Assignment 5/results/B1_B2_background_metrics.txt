@@ -1,0 +1,13 @@
+good_connectivity {'strategy': 'priority', 'enqueued': 3, 'processed': 3, 'deferred': 0, 'cancelled': 0, 'successful': 3, 'peak_concurrent_workers': 1, 'residual_backlog': 0}
+  {'id': 'S2', 'priority': 5, 'battery': 84, 'network': 'good', 'doze': False, 'decision': 'execute', 'status': 'uploaded'}
+  {'id': 'S1', 'priority': 3, 'battery': 83, 'network': 'good', 'doze': False, 'decision': 'execute', 'status': 'uploaded'}
+  {'id': 'S3', 'priority': 2, 'battery': 81, 'network': 'good', 'doze': False, 'decision': 'execute', 'status': 'uploaded'}
+doze_low_battery {'strategy': 'priority', 'enqueued': 2, 'processed': 2, 'deferred': 2, 'cancelled': 0, 'successful': 0, 'peak_concurrent_workers': 0, 'residual_backlog': 2}
+  {'id': 'D1', 'priority': 5, 'battery': 12, 'network': 'good', 'doze': True, 'decision': 'doze', 'status': 'deferred'}
+  {'id': 'D2', 'priority': 2, 'battery': 12, 'network': 'good', 'doze': True, 'decision': 'doze', 'status': 'deferred'}
+permission_revoked_mid_execution {'strategy': 'priority', 'enqueued': 1, 'processed': 1, 'deferred': 0, 'cancelled': 1, 'successful': 0, 'peak_concurrent_workers': 1, 'residual_backlog': 0}
+  {'id': 'P1', 'priority': 5, 'battery': 80, 'network': 'good', 'doze': False, 'decision': 'permission_revoked_mid_execution', 'status': 'cancelled'}
+workload_A {'strategy': 'priority', 'enqueued': 6, 'processed': 6, 'deferred': 0, 'cancelled': 0, 'successful': 6, 'peak_concurrent_workers': 1, 'residual_backlog': 0}
+workload_B {'strategy': 'priority', 'enqueued': 6, 'processed': 6, 'deferred': 5, 'cancelled': 1, 'successful': 0, 'peak_concurrent_workers': 0, 'residual_backlog': 5}
+order_fifo {'strategy': 'fifo', 'enqueued': 4, 'processed': 4, 'deferred': 0, 'cancelled': 0, 'successful': 4, 'peak_concurrent_workers': 1, 'residual_backlog': 0} order ['low', 'critical', 'medium', 'high']
+order_priority {'strategy': 'priority', 'enqueued': 4, 'processed': 4, 'deferred': 0, 'cancelled': 0, 'successful': 4, 'peak_concurrent_workers': 1, 'residual_backlog': 0} order ['critical', 'high', 'medium', 'low']
