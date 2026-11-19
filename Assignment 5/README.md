@@ -1,13 +1,22 @@
-# Assignment 5
+# Assignment 5 — Mobile Computing (50 Marks)
 
-Place all Assignment 5 work in this folder, organised by question number.
+Completed question-wise submission for Part A (A1–A5) and Part B (B1–B4).
 
-Suggested structure:
+- `Answers_Part_A.md` — design answers, language-independent pseudocode, trace and classification.
+- `Answers_Part_B.md` — implementation, tests, measurements and engineering decision.
+- `patterns/` — architecture and reusable algorithm patterns.
+- `data/` — workloads, test cases and device profiles.
+- `src/` — runnable Python simulations and smoke tests.
+- `results/` — deterministic captured console outputs.
 
-- `Answers_Q1-Qn.md` — written answers based on the marks and question requirements
-- `patterns/` — algorithms, flowcharts, architecture diagrams and pseudocode
-- `data/` — input datasets, sample records and test cases
-- `src/` — source programs, where programming is required
-- `results/` — program outputs, screenshots and result files
+Run from repository root:
+```bash
+python3 "Assignment 5/src/background_pipeline.py"
+python3 "Assignment 5/src/feed_optimizer.py"
+python3 "Assignment 5/src/video_encoder_selector.py"
+cd "Assignment 5/src" && python3 -m unittest -v
+```
 
-Keep each question's answer, implementation, supporting data and output clearly labelled.
+**Evidence limitation:** These are deterministic platform-independent simulations, not a compiled Android APK or physical-device benchmark. Energy/frame-cost values are illustrative estimates. Real Android mapping: WorkManager for durable deferrable work, foreground services only for user-visible time-critical work, and permission/consent rechecks before sensitive operations.
+
+Workflow: UNDERSTAND → DESIGN → CONSTRAINT-CHECK → IMPLEMENT → MEASURE → CHALLENGE → INTERPRET.
