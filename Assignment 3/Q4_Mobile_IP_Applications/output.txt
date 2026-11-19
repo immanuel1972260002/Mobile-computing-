@@ -1,0 +1,4 @@
+Register 10.1.0.20 -> 198.51.100.20 with Home Agent
+HA tunnels emergency packet to 198.51.100.20
+Dispatch centre receives: Patient status + GPS location
+Result: DELIVERY_SUCCESS
