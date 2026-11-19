@@ -1,0 +1,1 @@
+Disaster scenario: fixed cellular infrastructure unavailable; rapid deployment required; rescue nodes can relay packets over multiple hops.
