@@ -1,0 +1,1 @@
+Topology A—B—C—D. A receives an advertised route to D from B with hop count 2 and sequence number 8. A records next hop B and hop count 3.
