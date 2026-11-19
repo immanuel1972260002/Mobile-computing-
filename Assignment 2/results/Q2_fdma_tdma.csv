@@ -1,0 +1,9 @@
+dataset,scheme,nominal_channels,usable_channels,offered_active_users,blocked_users,utilisation_of_usable_channels,idle_channels_per_interval,reserved_capacity_wasted_pct
+continuous_voice,FDMA,80,73,70,0,0.9589,3,4.11
+continuous_voice,TDMA,80,70,70,0,1.0,0,0.0
+bursty_10pct,FDMA,80,73,7,0,0.0959,66,90.41
+bursty_10pct,TDMA,80,70,7,0,0.1,63,90.0
+mixed_70voice_30data,FDMA,80,73,49,0,0.6712,24,32.88
+mixed_70voice_30data,TDMA,80,70,49,0,0.7,21,30.0
+synchronised_edge,FDMA,80,73,90,17,1.0,0,0.0
+synchronised_edge,TDMA,80,70,90,20,1.0,0,0.0
