@@ -1,0 +1,1 @@
+A routing table: {'D': {'next_hop': 'B', 'hops': 3, 'seq': 8}}
