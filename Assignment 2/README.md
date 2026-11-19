@@ -6,7 +6,7 @@ This folder contains the question-wise written answers, executable Python/NumPy 
 - `Answers_Q1-Q7.md` — answers, assumptions, predictions, result analysis and design decisions.
 - `src/assignment2.py` — reproducible simulations for Q1–Q7 (seed `20261119`).
 - `requirements.txt` — NumPy dependency.
-- `results/` — CSV output for each question and combined `all_results.json`.
+- `results/` — committed question-wise CSV outputs. Running the program also generates a combined `all_results.json` file.
 
 ## Run from repository root
 ```bash
