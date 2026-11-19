@@ -1,0 +1,3 @@
+Packet 1–5: forwarded through AP1
+Packet 6–10: forwarded through AP2
+Delivered=10, Lost=0, Handoffs=1
