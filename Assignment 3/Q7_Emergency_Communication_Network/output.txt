@@ -1,0 +1,12 @@
+Fixed infrastructure: UNAVAILABLE
+AODV: broadcast RREQ for first data packet
+RREP received; route: Ambulance -> Relay-1 -> Relay-2 -> Field-Hospital
+Packet 1: delivered to Field-Hospital
+Packet 2: delivered to Field-Hospital
+Packet 3: delivered to Field-Hospital
+Packet 4: delivered to Field-Hospital
+Packet 5: delivered to Field-Hospital
+Generated: 5
+Delivered: 5
+Packet delivery ratio: 100.0%
+Control messages (simplified count): 2
